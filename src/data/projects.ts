@@ -36,6 +36,7 @@ export const projects: Project[] = [
     status: 'in-progress',
     tags: ['React', 'Fastify', 'LiveKit', 'Prisma', 'Socket.IO'],
     github: 'https://github.com/john-titor22/Dispeak',
+    demo: 'https://dispeakweb-production.up.railway.app/',
     clips: [
       { type: 'twitch-video', src: '2729826020' },
       { type: 'twitch-video', src: '2729822711' },
