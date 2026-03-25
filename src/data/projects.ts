@@ -33,7 +33,7 @@ export const projects: Project[] = [
     tagline: 'Encrypted voice & text, self-hosted.',
     description:
       'A privacy-first communication platform — Discord meets TeamSpeak with end-to-end encryption. Self-hostable, open source, built with Fastify, LiveKit, and React.',
-    status: 'in-progress',
+    status: 'completed',
     tags: ['React', 'Fastify', 'LiveKit', 'Prisma', 'Socket.IO'],
     github: 'https://github.com/john-titor22/Dispeak',
     demo: 'https://dispeakweb-production.up.railway.app/',
