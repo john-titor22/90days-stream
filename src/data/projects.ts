@@ -14,7 +14,7 @@ export interface Clip {
 
 export interface Project {
   id: string
-  day: number
+  day: string
   name: string
   tagline: string
   description: string
@@ -28,7 +28,7 @@ export interface Project {
 export const projects: Project[] = [
   {
     id: 'dispeak',
-    day: 1,
+    day: '1-2',
     name: 'Dispeak',
     tagline: 'Encrypted voice & text, self-hosted.',
     description:
@@ -40,6 +40,7 @@ export const projects: Project[] = [
     clips: [
       { type: 'twitch-video', src: '2729826020' },
       { type: 'twitch-video', src: '2729822711' },
+      { type: 'twitch-video', src: '2731167724' },
     ],
   },
 ]

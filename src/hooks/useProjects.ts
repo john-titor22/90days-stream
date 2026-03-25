@@ -23,7 +23,7 @@ export function useProjects() {
   }, [projects])
 
   function addProject(p: Project) {
-    setProjects((prev) => [...prev, p].sort((a, b) => a.day - b.day))
+    setProjects((prev) => [...prev, p].sort((a, b) => parseInt(a.day) - parseInt(b.day)))
   }
 
   function updateProject(id: string, updates: Partial<Project>) {

@@ -139,7 +139,7 @@ export default function AdminPanel({ project, onSave, onClose }: Props) {
   function validate(): boolean {
     const e: typeof errors = {}
     if (!form.name.trim()) e.name = 'Required'
-    if (!form.day || isNaN(Number(form.day)) || Number(form.day) < 1) e.day = 'Enter a valid day number'
+    if (!form.day.trim() || isNaN(parseInt(form.day))) e.day = 'Enter a day (e.g. 1 or 1-2)'
     if (!form.tagline.trim()) e.tagline = 'Required'
     if (!form.description.trim()) e.description = 'Required'
     form.clips.forEach((c) => {
@@ -172,7 +172,7 @@ export default function AdminPanel({ project, onSave, onClose }: Props) {
 
     onSave({
       id,
-      day: Number(form.day),
+      day: form.day.trim(),
       name: form.name.trim(),
       tagline: form.tagline.trim(),
       description: form.description.trim(),
@@ -219,11 +219,9 @@ export default function AdminPanel({ project, onSave, onClose }: Props) {
               <div className="form-field">
                 <label>Day # *</label>
                 <input
-                  type="number"
-                  min="1"
                   value={form.day}
                   onChange={(e) => setField('day', e.target.value)}
-                  placeholder="1"
+                  placeholder="1 or 1-2"
                   className={errors.day ? 'error' : ''}
                 />
                 {errors.day && <span className="form-error">{errors.day}</span>}
