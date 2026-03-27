@@ -28,7 +28,7 @@ export interface Project {
 export const projects: Project[] = [
   {
     id: 'dispeak',
-    day: '1-2',
+    day: '1-5',
     name: 'Dispeak',
     tagline: 'Encrypted voice & text, self-hosted.',
     description:
@@ -42,5 +42,15 @@ export const projects: Project[] = [
       { type: 'twitch-video', src: '2729822711' },
       { type: 'twitch-video', src: '2731167724' },
     ],
+  },
+  {
+    id: 'egsy',
+    day: '6',
+    name: 'Egsy',
+    tagline: 'Smart poultry farm management.',
+    description:
+      'A full-stack farm management platform for poultry farmers — track flocks, egg production, stock, sales, and expenses in one place. Built with Node.js, Prisma, and React.',
+    status: 'in-progress',
+    tags: ['React', 'Node.js', 'Prisma', 'Tailwind'],
   },
 ]
