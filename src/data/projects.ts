@@ -45,12 +45,14 @@ export const projects: Project[] = [
   },
   {
     id: 'egsy',
-    day: '6',
+    day: '5',
     name: 'Egsy',
     tagline: 'Smart poultry farm management.',
     description:
       'A full-stack farm management platform for poultry farmers — track flocks, egg production, stock, sales, and expenses in one place. Built with Node.js, Prisma, and React.',
-    status: 'in-progress',
+    status: 'completed',
     tags: ['React', 'Node.js', 'Prisma', 'Tailwind'],
+    github: 'https://github.com/john-titor22/Egsy',
+    demo: 'https://prolific-kindness-production-dbb6.up.railway.app',
   },
 ]
