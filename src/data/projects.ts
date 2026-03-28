@@ -45,9 +45,9 @@ export const projects: Project[] = [
     ],
   },
   {
-    id: 'egsy',
+    id: 'eggsy',
     day: '5',
-    name: 'Egsy',
+    name: 'Eggsy',
     tagline: 'Smart poultry farm management.',
     description:
       'A full-stack farm management platform for poultry farmers — track flocks, egg production, stock, sales, and expenses in one place. Built with Node.js, Prisma, and React.',
