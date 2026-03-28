@@ -41,6 +41,7 @@ export const projects: Project[] = [
       { type: 'twitch-video', src: '2729826020' },
       { type: 'twitch-video', src: '2729822711' },
       { type: 'twitch-video', src: '2731167724' },
+      { type: 'twitch-video', src: '2733359343' },
     ],
   },
   {
@@ -54,5 +55,8 @@ export const projects: Project[] = [
     tags: ['React', 'Node.js', 'Prisma', 'Tailwind'],
     github: 'https://github.com/john-titor22/Egsy',
     demo: 'https://prolific-kindness-production-dbb6.up.railway.app',
+    clips: [
+      { type: 'twitch-video', src: '2733484810' },
+    ],
   },
 ]
