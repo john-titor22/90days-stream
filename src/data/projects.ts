@@ -59,4 +59,19 @@ export const projects: Project[] = [
       { type: 'twitch-video', src: '2733484810' },
     ],
   },
+  {
+    id: 'gympal',
+    day: '6',
+    name: 'GymPal',
+    tagline: 'Your AI-powered fitness companion.',
+    description:
+      'A fitness SaaS that helps you track workouts, monitor progress, and stay consistent. Built with a modern full-stack setup and designed for real gym-goers.',
+    status: 'completed',
+    tags: ['React', 'Node.js', 'Prisma', 'Tailwind'],
+    github: 'https://github.com/john-titor22/GymPal',
+    demo: 'https://diplomatic-joy-production.up.railway.app/',
+    clips: [
+      { type: 'twitch-video', src: '2734409159' },
+    ],
+  },
 ]
