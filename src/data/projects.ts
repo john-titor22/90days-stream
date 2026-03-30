@@ -61,7 +61,7 @@ export const projects: Project[] = [
   },
   {
     id: 'gympal',
-    day: '6',
+    day: '6-8',
     name: 'GymPal',
     tagline: 'Your AI-powered fitness companion.',
     description:
@@ -72,6 +72,7 @@ export const projects: Project[] = [
     demo: 'https://diplomatic-joy-production.up.railway.app/',
     clips: [
       { type: 'twitch-video', src: '2734409159' },
+      { type: 'twitch-video', src: '2735953178' },
     ],
   },
 ]
