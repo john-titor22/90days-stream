@@ -29,7 +29,7 @@ function ClipEmbed({ clip }: { clip: Clip }) {
     )
   }
   return (
-    <video controls preload="metadata">
+    <video key={clip.src} controls preload="metadata">
       <source src={clip.src} />
       Your browser does not support video.
     </video>
