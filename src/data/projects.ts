@@ -38,10 +38,9 @@ export const projects: Project[] = [
     github: 'https://github.com/john-titor22/Dispeak',
     demo: 'https://dispeakweb-production.up.railway.app/',
     clips: [
-      { type: 'twitch-video', src: '2729826020' },
-      { type: 'twitch-video', src: '2729822711' },
-      { type: 'twitch-video', src: '2731167724' },
-      { type: 'twitch-video', src: '2733359343' },
+      { type: 'local', src: '/clips/Dispeak1.mp4' },
+      { type: 'local', src: '/clips/Dispeak2.mp4' },
+      { type: 'local', src: '/clips/DispeakFinal.mp4' },
     ],
   },
   {
@@ -56,23 +55,23 @@ export const projects: Project[] = [
     github: 'https://github.com/john-titor22/Egsy',
     demo: 'https://prolific-kindness-production-dbb6.up.railway.app',
     clips: [
-      { type: 'twitch-video', src: '2733484810' },
+      { type: 'local', src: '/clips/Eggsy.mp4' },
     ],
   },
   {
     id: 'gympal',
     day: '6-8',
     name: 'GymPal',
-    tagline: 'Your AI-powered fitness companion.',
+    tagline: 'Track workouts, build streaks, crush goals.',
     description:
-      'A fitness SaaS that helps you track workouts, monitor progress, and stay consistent. Built with a modern full-stack setup and designed for real gym-goers.',
+      'A full-stack fitness tracking app — build custom routines, log sets and reps, track streaks, and schedule workouts on a drag-and-drop calendar. Includes an exercise library with muscle-group filtering, session history, and a body visualization map. Built with React, Express, Prisma, and PostgreSQL.',
     status: 'completed',
-    tags: ['React', 'Node.js', 'Prisma', 'Tailwind'],
+    tags: ['React', 'Express', 'Prisma', 'PostgreSQL', 'Tailwind'],
     github: 'https://github.com/john-titor22/GymPal',
     demo: 'https://diplomatic-joy-production.up.railway.app/',
     clips: [
-      { type: 'twitch-video', src: '2734409159' },
-      { type: 'twitch-video', src: '2735953178' },
+      { type: 'local', src: '/clips/GymPal1.mp4' },
+      { type: 'local', src: '/clips/GymPal2.mp4' },
     ],
   },
 ]
